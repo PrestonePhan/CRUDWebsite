@@ -1,0 +1,10 @@
+body{
+     background: linear-gradient(to top, rgba(148,0,211,0), rgba(148,0,211,1))
+     }
+     td {
+    padding: 10px;
+}
+.advancedSearchTextbox {
+    width: 300px;
+    margin-right: -4px;
+}
