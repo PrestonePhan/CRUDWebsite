@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel='stylesheet' href='looks.css'>
+        <title>CRUD template</title>
+    </head>
+        <center>
+            <img src="Cat.png" border="0px"
+                width="400px" height="235px" >
+        </center>
+        <br>
+        <br>
+        <center>
+            <form action='Create.php' method = 'post'>
+                <input type='text' placeholder='Full Name' name='fullName'>
+                <select id='select' name='CatName'>
+                    <option value="British Shorthair" >British Shorthair</option>
+                    <option Value="Siamese" >Siamese</option>
+                    <option Value="Persian" >Persian</option>
+                    <option Value="Ragdoll" >Ragdoll</option>
+                    <option Value="Maine Coon" >Maine Coon</option>
+                    <option Value="American Bobtail" >American Bobtail</option>
+                    <option Value="Siberian" >Siberian</option>
+                </select>
+                <select id='select' name='Age'>
+                 <option value="1-3" >1-3</option>
+                 <option value="4-6" >4-6</option>
+                 <option value="7-9" >7-9</option>
+                 <option value="10-13" >10-13</option>
+            </select>
+            <input name = 'create' type = 'submit' value = 'Submit Info'>
+            </form>
+        </center>
+    </body>
+</html>
